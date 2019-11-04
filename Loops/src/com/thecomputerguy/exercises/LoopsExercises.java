@@ -11,12 +11,7 @@ public class LoopsExercises {
 	 */
 
 	public int sumBetween(int begin, int end) {
-		int sum = 0;
-		for (int i = begin; i <= end; i++) {
-			sum = sum + i;
-		}
-
-		return sum;
+		return 0;
 
 	}
 
@@ -25,22 +20,7 @@ public class LoopsExercises {
 	 * sumDigits(1234) --> 10 sumDigits(87654) --> 30 sumDigits(0) --> 0
 	 */
 	public int sumDigits(int number) {
-		int sum = 0;
-		if (number < 0) {
-			number *= -1;
-			while (number > 0) {
-				sum += number % 10;
-				number /= 10;
-			}
-			return sum * -1;
-		}
-		while (number > 0) {
-			sum += number % 10;
-			number /= 10;
-		}
-
-		// System.out.println(sum);
-		return sum;
+		return 0;
 	}
 
 	/**
@@ -59,17 +39,7 @@ public class LoopsExercises {
 	 * --> 1
 	 */
 	public long factorial(int number) {
-		if (number == 0) {
-			return 1;
-		}
-
-		int ret = 0;
-
-		for (int i = 1; i <= number; i++) {
-
-		}
-
-		return 1;
+		return 0;
 	}
 
 	/**
@@ -77,23 +47,7 @@ public class LoopsExercises {
 	 * pairs("bobby")-->1 pairs("ralph") --> 0 pairs("aabbbc")-> 3
 	 */
 	public int pairs(String str) {
-		int count = 0;
-		;
-		System.out.println(str);
-		for (int i = 1; i < str.length()-1; i++) {
-			if (str.charAt(i) == str.charAt(i - 1)) {
-				count += 1;
-				System.out.println("first if " + count);
-			}
-			if (str.charAt(i) == str.charAt(i - 1) && str.charAt(i) == str.charAt(i + 1)) {
-				count += 3;
-
-				System.out.println("second if " + count);
-			}
-		}
-
-		System.out.println(count);
-		return count;
+		return 0;
 	}
 
 	/**
@@ -101,13 +55,7 @@ public class LoopsExercises {
 	 * 2 count(1772, 7) --> 3 count(10654,0) --> 1
 	 */
 	public int count(int num, int value) {
-		String str = Integer.toString(num);
-		String  val= Integer.toString(value);
-		for(int i = 0; i <str.length()-1;i++) {
-			if(str.charAt(i)==str.charAt(i+1) && str.charAt(i)== val.charAt(0) ) {
-				
-			}
-		}
+		
 		return 0;
 	}
 

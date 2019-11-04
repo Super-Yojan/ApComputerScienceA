@@ -71,9 +71,9 @@ public class LoopsExercisesTest {
       result = le.pairs("mississippi");
       assertEquals(3, result);
       result = le.pairs("aabbbc");
-      assertEquals(6, result);
+      assertEquals(4, result);
       result = le.pairs("aaaaabb");
-      assertEquals(13, result);
+      assertEquals(7, result);
    }
    
    @Test
